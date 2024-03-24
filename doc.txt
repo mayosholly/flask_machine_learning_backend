@@ -1,0 +1,17 @@
+pip install Flask pandas scikit-learn mysql-connector-python
+
+pip install pandas scikit-learn mysql-connector-python 
+
+pip install flask-cors
+
+pip install flask-sqlalchemy flask-jwt-extended 
+
+pip install flask-bcrypt
+
+
+flask db init 
+
+flask db migrate 
+-m "Initial migration"
+
+flask db upgrade 
